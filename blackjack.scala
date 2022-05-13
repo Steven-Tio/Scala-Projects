@@ -195,9 +195,7 @@ object ScalaTutorial {
             favNums.remove(num)
             dealerScore += score
             println(" ")
-        }
             if((dealerHighScore>=17) && (dealerHighScore<=21))
-        {
             dealerScore = dealerHighScore
         }
         
